@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    text-align: center;
+    padding: 50px;
+    background: #23252C;
+    color: white;
+}
+
+
+.container {
+    width: 317px;
+    margin: auto;
+    background: #1A1B21;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.person_info > img {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.person_info > h2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 21px 0 6.19px 0;
+}
+
+.person_info > h4 {
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin-bottom: 8.19px;
+}
+
+.person_info > p {
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-bottom: 33px;
+}
+
+.btn > button {  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    width: 115px;
+    height: 34px;
+    gap: 17px;
+    padding: 9px 13px 9px 11px;
+    border-radius: 6px;
+}
+
+.btn > button:last-child {
+    background-color: #5093E2;
+    color: white;
+}
+
+.about, .interests {
+   margin-left: 36px;
+   margin-bottom: 30px;
+   width: 240px;
+}
+
+.about > h3, .about > p, .interests > h3, .interests > p {
+    text-align: left;
+}
+
+.about > h3, .interests > h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.about > p, .interests > p {
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #DCDCDC;
+}
+
+.footer {
+    background: #161619;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+}

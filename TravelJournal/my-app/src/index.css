@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    background-color: black;
+}
+
+.container {
+    width: 550px;
+    height: 704px;
+    margin: auto;
+    background-color: white;;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header {
+    background-color: #F55A5A;
+    color: white;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-text {
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    margin-left: 10px;
+}
+
+.cards-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.card {
+    width: 470px;
+    height: 168px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.card-image {
+    width: 125px;
+    height: 168px;
+    border-radius: 5px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.location-name, .google-location, .card-date, .card-description {
+    font-size: 10.24px;
+
+}
+
+.location-name, .google-location a, .card-description {
+    font-weight: 400;
+
+}
+
+.location-name, .google-location  a, .card-date {
+    line-height: 12px;
+}
+
+.location-name {
+    letter-spacing: 0.17em;
+}
+
+.google-location  a{
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.card-title, .card-date, .card-description {
+    color: #2B283A;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 7px 0px 7px 0px;
+}
+
+.card-date {
+    font-weight: 700;
+}
+
+.card-description {
+    line-height: 150%;
+    margin-top: 9px;
+}
