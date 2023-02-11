@@ -1,2 +1,2 @@
 # React-Mini-Project
-Using react to build min web app
+Using react to build mini web app
